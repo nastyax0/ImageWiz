@@ -11,6 +11,11 @@ clones master repository into your system,
 > g++ -o Image_tool ImageProcess.cpp Image_Tool.cpp
 
 Run for help
-> ./Image_Tool --help  
+> ./Image_Tool --help
+
+## for CLI interaction,
+> ./Image_Tool --flags [destination filename] [source filename]
+
+### Flags ~ options
 
  
