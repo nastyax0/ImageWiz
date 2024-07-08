@@ -8,7 +8,7 @@ clones master repository into your system,
 
 *any c++ compiler can be used to compile the following program:*
 
-  g++ -o Image_tool ImageProcess.cpp Image_Tool.cpp
+    g++ -o Image_tool ImageProcess.cpp Image_Tool.cpp
 
 Run for help
 > ./Image_Tool --help
