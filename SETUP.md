@@ -2,7 +2,7 @@
 
 Distribution of this program isnt much thought about, so
 
-> git clone -b master https://github.com/nastyax0/ImageWiz/
+    git clone -b master https://github.com/nastyax0/ImageWiz/
 
 clones master repository into your system,
 
