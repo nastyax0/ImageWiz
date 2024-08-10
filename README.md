@@ -60,7 +60,9 @@ if value is lesser than 0.0 then 0.0
 else return imagedata;
 
 ## 5) CONVOLUTION:
-//In Progress
+1) Normal convolution of traversing the matrix, element by element slow time complexity algorithm for convolution of kernel transformation into desired filters.
+   
+3) FFT- Fast Fourier transformation algorithm for convolution of kernel transformation into desired filters.
 
 ## 6) INVERT:
 complement of the given color = 255 - color of channel;
