@@ -67,6 +67,14 @@ else return imagedata;
 ## 6) INVERT:
 complement of the given color = 255 - color of channel;
 
+## 7) STEGENOGRAPHY
+A method to hide secret text into image. LSB method was used in coding the stegenography. 
+//formula here...
+
+OpenSSL is ongoing implementation in this code base for more crpytic storage and range of options available.
+
+
+
 
 
 
