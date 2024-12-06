@@ -69,9 +69,21 @@ complement of the given color = 255 - color of channel;
 
 ## 7) STEGENOGRAPHY
 A method to hide secret text into image. LSB method was used in coding the stegenography. 
-//formula here...
+
+           extract messageBit from message                                           // extracting evry bit from message[n], by shifiting the bits to right
+           Image[data] = (Image[data] & 0xFE) | messageBit;                          // doing or to store messageBit
+
+char *ImageProcess::steganographDec(size_t messageLength)
+{
+    
+            extract message from image,                                              //messageBit = (data[i] & 1);
+            message[index / 8] |= (messageBit << (7 - (index % 8)));                 //encapusulate messageBit inside message, 
+            index++;
+}
 
 OpenSSL is ongoing implementation in this code base for more crpytic storage and range of options available.
+
+# 8) ENCRYTION-BASED STEGNANOGRAPHY
 
 
 
